@@ -1,5 +1,5 @@
-const ul = document.querySelector('.cards')
 function createCard(pokemonName) {
+    const ul = document.querySelector('.cards')
 
     //card as a list item
     const li = document.createElement('li')
@@ -9,11 +9,12 @@ function createCard(pokemonName) {
     const h2 = document.createElement('h2')
     h2.setAttribute('class', 'card--title')
     h2.innerText = pokemonName
+    h2.innerText = h2.innerText.charAt(0).toUpperCase() + h2.innerText.substring(1)
 
 
     //pokemon image
     const img = document.createElement('img');
-    img.setAttribute('class', 'card--image')
+    img.setAttribute('class', 'card--img')
 
 
     //card text

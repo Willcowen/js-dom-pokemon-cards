@@ -31,9 +31,9 @@ h2 {
   gap: 15px;
   justify-content: center;
   justify-items: center;
-
   padding: 2rem 0;
   margin-bottom: 2rem;
+  list-style: none;
 }
 
 .card {
@@ -55,13 +55,16 @@ h2 {
 .card--text {
   margin: 0.2rem;
   padding: 1rem;
-
+  list-style: none;
   border-radius: 5px;
+  line-height: 32px;
+  
 }
 
 .card--img {
   display: block;
+  width: 300px;
   margin: 0 auto;
-
+  
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
